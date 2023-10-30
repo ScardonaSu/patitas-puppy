@@ -1,19 +1,20 @@
 
 /* Costom properties */
 :root{
-    --primario: #6b7a8f;
-    --secundario: #f7882f;
+    --primario: #004450;
+    --secundario: #edcff0;
     --citrus: #f2c331;
     --appleCore: #dcc7aa;
+    --vinotino: #3f2021;
+    --orange: #ff7340;
     --gris: #3B3B3B;
     --blanco: #fff;
     --negro: #1f1e1e;
     --grisClaro: #e1e1e1;
-
-    --separaion: 5rem;
     
     --fuentePrincipal: 'Roboto', sans-serif;
     --fuente-secundaria: 'Lato', sans-serif;
+
 
 
 }
@@ -36,6 +37,7 @@ body{
 
 .contenedor{
     max-width: 120rem;
+    min-width: 40rem;
     width: 90%;
     margin: 0 auto;
 }
@@ -47,7 +49,7 @@ h1,h2,h3{
 }
 
 h1{
-  font-size: 4,4rem;
+  font-size: 4.4rem;
 }
 
 h2{
@@ -68,6 +70,38 @@ img{
 
 .text-center{
   text-align: center;
+}
+
+
+/* Barra nav */
+
+
+.barraNava{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+    background-color: var(--citrus);
+    margin: 0;
+    
+}
+
+
+.barraNava li img{
+    width: 10rem;
+}
+
+.barraNava li{
+    list-style: none;
+
+}
+
+.barraNava li a{
+    text-decoration: none;
+    font-size: 1.9rem;
+    font-weight: 900;
+    padding: 3rem;
+
 }
 
 
