@@ -42,6 +42,10 @@ body{
     margin: 0 auto;
 }
 
+p, h3{
+    margin: 0;
+}
+
 h1,h2,h3{
   font-weight: 900;
   font-family: var(--fuente-secundaria);
@@ -81,7 +85,7 @@ img{
     justify-content: space-between;
     align-items: center;
     padding: 0 1rem;
-    background-color: var(--citrus);
+    background-color: var(--primario);
     margin: 0;
     
 }
@@ -101,8 +105,82 @@ img{
     font-size: 1.9rem;
     font-weight: 900;
     padding: 3rem;
+    color: var(--blanco);
 
 }
+
+.tipo-mascota{
+    display: flex;
+    justify-content:space-evenly;
+    gap: 3rem;
+    margin-top: 3rem;
+    color: var(--blanco);
+
+}
+.contenido-mascota{
+    padding: 5rem;
+    width: 40rem;
+    display: flex;
+    justify-content: center;
+    border-radius: 6rem;
+    width: 30rem;
+    line-height: 1;
+}
+
+.perro{
+    background-color: var(--citrus);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.gato{
+    background-color: var(--vinotino);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.perro p{
+    font-size: 1.9rem;
+}
+
+.gato p{
+    font-size: 1.9rem;
+}
+
+.perro h3{
+    margin: 0;
+}
+
+.gato h3{
+    margin: 0;
+}
+
+
+/* Categorias */
+
+.categorias{
+    margin-top: 5rem;
+}
+
+.categorias h3{
+    text-align: center;
+}
+.categorias-imagenes img{
+    width: 16%;
+}
+.categorias-imagenes{
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+
+
 
 
 
