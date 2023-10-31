@@ -170,11 +170,15 @@ img{
 }
 .categorias-imagenes img{
     width: 16%;
+    border: 1px solid var(--grisClaro);
+    border-radius: 5rem;
+    padding: 1rem;
 }
 .categorias-imagenes{
 
     display: flex;
     justify-content: space-between;
+    
 
 }
 
