@@ -206,8 +206,13 @@ img{
     border-radius: 2rem;
     padding: 2rem;
 
-
 }
+
+.titulos-categoria h2{
+    text-align: center;
+    margin: 5rem 0;
+}
+
 
 .banner-card{
     background-image: url(../img/Banner\ 1.jpg);
@@ -258,6 +263,7 @@ img{
 
 .letra-categorias{
     text-align: center;
+    margin: 5rem 0;
 }
 
 
