@@ -267,7 +267,7 @@ img{
 
 footer{
     display: flex;
-
+    justify-content: center;
     background-color: #004450;
     color: var(--blanco);
 }
