@@ -89,6 +89,12 @@ img{
     background-color: var(--primario);
     margin:  0;
     height: 15rem;
+    position: fixed;
+    width: 100%;
+}
+
+.banner{
+    padding-top: 15rem;
 }
 
 
@@ -292,6 +298,11 @@ footer{
 }
 .redes-sociales img{
     width: 50px;
+}
+
+.footer h3{
+    margin: 2rem 0;
+    padding: 0 3rem 0 0;
 }
 
 
