@@ -145,7 +145,6 @@ img{
 }
 
 
-
 /* Banner */
 
 .banner img{
@@ -163,7 +162,7 @@ img{
 
 
 .gato{
-    background-color: var(--vinotino);
+    background-color: var(--appleCore);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -209,7 +208,7 @@ img{
 }
 
 .categorias-imagenes a:hover{
-    background-color: #edcff0;
+    background-color: var(--vinotino);
 }
 
 
@@ -224,7 +223,14 @@ img{
 }
 
 .card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid var(--grisClaro);
+    border-radius: 2rem;
+    padding: 2rem;
     box-shadow: 5px 5px 20px gray;
+    
     
 }
 
@@ -232,6 +238,15 @@ img{
     box-shadow: 5px 5px 30px 7px gray;
 }
 
+.card p:last-child{
+    font-weight: 900;
+}
+
+.card p span{
+    font-weight: 900;
+    font-size: 2rem;
+    color: var(--orange);
+}
 
 
 .cards{
@@ -242,15 +257,6 @@ img{
     
 }
 
-.cards .card{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border: 1px solid var(--grisClaro);
-    border-radius: 2rem;
-    padding: 2rem;
-
-}
 
 .titulos-categoria h2{
     text-align: center;
