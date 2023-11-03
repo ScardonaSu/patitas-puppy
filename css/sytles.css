@@ -137,8 +137,14 @@ img{
     border-radius: 6rem;
     width: 30rem;
     line-height: 1;
-    box-shadow: 5px 5px 15px gray;
+    box-shadow: 5px 5px 30px gray;
 }
+
+.contenido-mascota:hover{
+    box-shadow: 5px 5px 30px 7px gray;
+}
+
+
 
 /* Banner */
 
@@ -154,6 +160,7 @@ img{
     align-items: center;
     
 }
+
 
 .gato{
     background-color: var(--vinotino);
@@ -218,7 +225,13 @@ img{
 
 .card{
     box-shadow: 5px 5px 20px gray;
+    
 }
+
+.card:hover{
+    box-shadow: 5px 5px 30px 7px gray;
+}
+
 
 
 .cards{
