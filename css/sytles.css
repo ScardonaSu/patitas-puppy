@@ -34,6 +34,7 @@ body{
     line-height: 1.5;
 }
 
+
 /* Globales */
 
 .contenedor{
@@ -80,7 +81,6 @@ img{
 
 /* Barra nav */
 
-
 .barraNava{
     display: flex;
     justify-content: center;
@@ -97,15 +97,12 @@ img{
     padding-top: 15rem;
 }
 
-
 .barraNava li img{
     width: 15rem;
 }
 
 .barraNava li{
     list-style: none;
-
-
 }
 
 .barraNava li a{
@@ -114,12 +111,7 @@ img{
     font-weight: 900;
     padding: 3rem;
     color: var(--blanco);
-
 }
-
-
-
-
 
 .tipo-mascota{
     display: flex;
@@ -127,8 +119,8 @@ img{
     gap: 3rem;
     margin-top: 3rem;
     color: var(--blanco);
-
 }
+
 .contenido-mascota{
     padding: 5rem;
     width: 40rem;
@@ -151,7 +143,6 @@ img{
     width: 100%;
 }
 
-
 .perro{
     background-color: var(--citrus);
     display: flex;
@@ -159,7 +150,6 @@ img{
     align-items: center;
     
 }
-
 
 .gato{
     background-color: var(--appleCore);
@@ -194,6 +184,7 @@ img{
 .categorias h3{
     text-align: center;
 }
+
 .categorias-imagenes a{
     width: 16%;
     border: 1px solid var(--grisClaro);
@@ -211,15 +202,9 @@ img{
     background-color: var(--vinotino);
 }
 
-
-
-
-
 .categorias-imagenes{
-
     display: flex;
     justify-content: space-between;
-    
 }
 
 .card{
@@ -229,9 +214,7 @@ img{
     border: 1px solid var(--grisClaro);
     border-radius: 2rem;
     padding: 2rem;
-    box-shadow: 5px 5px 20px gray;
-    
-    
+    box-shadow: 5px 5px 20px gray;    
 }
 
 .card:hover{
@@ -240,6 +223,7 @@ img{
 
 .card p:last-child{
     font-weight: 900;
+    margin-top: 2rem;
 }
 
 .card p span{
@@ -247,7 +231,6 @@ img{
     font-size: 2rem;
     color: var(--orange);
 }
-
 
 .cards{
     display: grid;
@@ -257,18 +240,18 @@ img{
     
 }
 
-
 .titulos-categoria h2{
     text-align: center;
     margin: 5rem 0;
 }
 
-
 .banner-card{
     background-image: url(../img/Banner\ 1.jpg);
 }
 
+
 /* Contacto */
+
 .padre{
     display: flex;
     align-items: center;
@@ -302,7 +285,6 @@ img{
     justify-content: center;
     gap: 30px;
     margin-bottom: 10px;
-
 }
 
 .iconos img{
@@ -328,14 +310,55 @@ img{
 
 .contenedor-nosotros p{
     margin: 2rem 0;
-    width: 80%;
+    width: 70%;
+}
+
+.texto-nosotros p .patitas{
+    color: var(--citrus);
+    font-weight: 900;
+}
+
+.texto-nosotros p .patitas2{
+    color: var(--orange);
+    font-weight: 900;
+}
+
+.texto-nosotros p .patitas3{
+    color: rgb(80, 71, 255);
+    font-weight: 900;
+}
+
+.texto-nosotros h3{
+    margin: 0;
+    color: var(--vinotino);
+}
+
+.texto-nosotros h1{
+    color: var(--vinotino);
 }
 
 
+/* WhatsApp */
+
+.wha{
+    width:75px;
+    height: 75px;
+    background-color: #25D366;
+    border-radius: 50%;
+    text-align: center;
+    position: fixed;
+    bottom: 5%;
+    right: 5%;
+}
+
+.wha i{
+    font-size: 60px;
+    margin-top: 9%;
+    color: #fff;
+}
+
 
 /* Footer */
-
-
 
 footer{
     display: flex;
@@ -343,7 +366,6 @@ footer{
     background-color: #004450;
     color: var(--blanco);
 }
-
 
 .logopat{
     width: 200px;
@@ -356,6 +378,7 @@ footer{
     margin-top: 20px;
     
 }
+
 .redes-sociales img{
     width: 50px;
 }
