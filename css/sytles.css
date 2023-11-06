@@ -198,7 +198,7 @@ img {
 
 @media (max-width: 768px) { 
     .banner img{
-        margin-top: 10rem;
+        margin-top: 0;
     }
 }
 
