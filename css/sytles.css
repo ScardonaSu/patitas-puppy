@@ -98,8 +98,24 @@ img {
     width: 100%;
 }
 
+@media (max-width: 758px) { 
+    .barraNava{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: unset;
+        height: auto;
+        padding: 2rem 0;
+    }
+}
+
 .banner {
     padding-top: 15rem;
+}
+@media (max-width: 768px) { 
+    .banner{
+        padding-top: 0;
+    }
 }
 
 .barraNava li img {
@@ -148,6 +164,14 @@ img {
     color: var(--blanco);
 }
 
+@media (max-width: 768px) { 
+    .tipo-mascota{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
 .contenido-mascota {
     padding: 5rem;
     width: 40rem;
@@ -159,6 +183,8 @@ img {
     box-shadow: 5px 5px 30px gray;
 }
 
+
+
 .contenido-mascota:hover {
     box-shadow: 5px 5px 30px 7px gray;
 }
@@ -168,6 +194,12 @@ img {
 
 .banner img {
     width: 100%;
+}
+
+@media (max-width: 768px) { 
+    .banner img{
+        margin-top: 10rem;
+    }
 }
 
 .perro {
@@ -208,6 +240,12 @@ img {
     margin-top: 15rem;
 }
 
+@media (max-width: 768px) { 
+    .categorias{
+        margin-top: 10rem;
+    }
+}
+
 .categorias h3 {
     text-align: center;
 }
@@ -221,6 +259,13 @@ img {
     box-shadow: 5px 5px 15px gray;
 }
 
+@media (max-width: 768px) { 
+    .categorias-imagenes a{
+        padding: 0;
+        margin-top: 1.5rem;
+    }
+}
+
 .categorias-imagenes img {
     border-radius: 5rem;
 }
@@ -232,6 +277,16 @@ img {
 .categorias-imagenes {
     display: flex;
     justify-content: space-between;
+}
+
+@media (max-width: 768px) { 
+    .categorias-imagenes{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+
+    }
 }
 
 .card {
@@ -272,6 +327,13 @@ img {
 
 }
 
+@media (max-width: 768px) { 
+    .cards{
+        grid-template-columns: repeat(2, 1fr);
+        margin-top: 10rem;
+    }
+}
+
 .titulos-categoria h2 {
     text-align: center;
     margin: 5rem 0;
@@ -298,6 +360,13 @@ img {
     gap: 50px;
     padding: 5rem 0;
     margin-top: 15rem;
+}
+
+@media (max-width: 768px) { 
+    .contacto{
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 .contacto-texto {
@@ -420,6 +489,13 @@ footer {
     background-color: #004450;
     color: var(--blanco);
     margin-top: 15rem;
+}
+
+@media (max-width: 768px) { 
+    footer{
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
 footer a {
