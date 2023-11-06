@@ -1,6 +1,5 @@
-
 /* Costom properties */
-:root{
+:root {
     --primario: #004450;
     --secundario: #edcff0;
     --citrus: #f2c331;
@@ -11,7 +10,7 @@
     --blanco: #fff;
     --negro: #1f1e1e;
     --grisClaro: #e1e1e1;
-    
+
     --fuentePrincipal: 'Roboto', sans-serif;
     --fuente-secundaria: 'Lato', sans-serif;
 
@@ -24,11 +23,14 @@ html {
     font-size: 62.5%;
     scroll-behavior: smooth;
 }
-*, *:before, *:after {
+
+*,
+*:before,
+*:after {
     box-sizing: inherit;
 }
 
-body{
+body {
     font-family: var(--fuentePrincipal);
     font-size: 1.6rem;
     line-height: 1.5;
@@ -37,36 +39,39 @@ body{
 
 /* Globales */
 
-.contenedor{
+.contenedor {
     max-width: 120rem;
     min-width: 40rem;
     width: 90%;
     margin: 0 auto;
 }
 
-p, h3{
+p,
+h3 {
     margin: 0;
 }
 
-h1,h2,h3{
+h1,
+h2,
+h3 {
     font-weight: 900;
     font-family: var(--fuente-secundaria);
     margin: 2.5rem;
 }
 
-h1{
+h1 {
     font-size: 4.4rem;
 }
 
-h2{
+h2 {
     font-size: 3.6rem;
 }
 
-h3{
+h3 {
     font-size: 2.8rem;
 }
 
-img{
+img {
     max-width: 100%;
     display: block;
 }
@@ -74,49 +79,54 @@ img{
 
 /* Utilidades */
 
-.text-center{
+.text-center {
     text-align: center;
 }
 
 
 /* Barra nav */
 
-.barraNava{
+.barraNava {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 0 1rem;
     background-color: var(--primario);
-    margin:  0;
+    margin: 0;
     height: 15rem;
     position: fixed;
     width: 100%;
 }
 
-.barraNava li img{
+.banner {
+    padding-top: 15rem;
+}
+
+.barraNava li img {
     width: 15rem;
     transition: transform;
     transition-duration: .3s;
 }
 
-.barraNava li img:hover{
+.barraNava li img:hover {
     transform: scale(1.2);
 }
 
 
-.barraNava li{
+.barraNava li {
     list-style: none;
     transition-property: transform;
 }
 
 
-.barraNava li:hover{
+.barraNava li:hover {
 
-    -webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+    -webkit-filter: grayscale(100%);
+    /* Chrome, Safari, Opera */
     filter: grayscale(100%);
 }
 
-.barraNava li a{
+.barraNava li a {
     text-decoration: none;
     font-size: 1.9rem;
     font-weight: 900;
@@ -124,21 +134,21 @@ img{
     color: var(--blanco);
 }
 
-.barraNava li a:hover{
+.barraNava li a:hover {
     transform: scale(1.2);
     color: #f2c331;
 }
 
 
-.tipo-mascota{
+.tipo-mascota {
     display: flex;
-    justify-content:space-evenly;
+    justify-content: space-evenly;
     gap: 3rem;
     margin-top: 3rem;
     color: var(--blanco);
 }
 
-.contenido-mascota{
+.contenido-mascota {
     padding: 5rem;
     width: 40rem;
     display: flex;
@@ -149,151 +159,153 @@ img{
     box-shadow: 5px 5px 30px gray;
 }
 
-.contenido-mascota:hover{
+.contenido-mascota:hover {
     box-shadow: 5px 5px 30px 7px gray;
 }
 
 
 /* Banner */
 
-.banner img{
+.banner img {
     width: 100%;
-    padding: 15rem 0;
 }
 
-.perro{
+.perro {
     background-color: var(--citrus);
     display: flex;
     flex-direction: column;
     align-items: center;
-    
+
 }
 
-.gato{
+.gato {
     background-color: var(--appleCore);
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.perro p{
+.perro p {
     font-size: 1.9rem;
 }
 
-.gato p{
+.gato p {
     font-size: 1.9rem;
 }
 
-.perro h3{
+.perro h3 {
     margin: 0;
 }
 
-.gato h3{
+.gato h3 {
     margin: 0;
 }
+
 
 /* Categorias */
 
-.categorias{
-    margin-top: 10rem;
+.categorias {
+    margin-top: 5rem;
 }
 
-.categorias h3{
+.categorias h3 {
     text-align: center;
 }
 
-.categorias-imagenes a{
+.categorias-imagenes a {
     width: 16%;
     border: 1px solid var(--grisClaro);
     border-radius: 5rem;
     padding: 1rem;
-    transition: background-color .3s ease-out ;
+    transition: background-color .3s ease-out;
     box-shadow: 5px 5px 15px gray;
 }
 
-.categorias-imagenes img{
+.categorias-imagenes img {
     border-radius: 5rem;
 }
 
-.categorias-imagenes a:hover{
+.categorias-imagenes a:hover {
     background-color: var(--vinotino);
 }
 
-.categorias-imagenes{
+.categorias-imagenes {
     display: flex;
     justify-content: space-between;
 }
 
-.card{
+.card {
     display: flex;
     flex-direction: column;
     align-items: center;
     border: 1px solid var(--grisClaro);
     border-radius: 2rem;
     padding: 2rem;
-    box-shadow: 5px 5px 20px gray;    
+    box-shadow: 5px 5px 20px gray;
+    text-align: center;
 }
 
-.card:hover{
+.card img {
+    height: 338px;
+}
+
+.card:hover {
     box-shadow: 5px 5px 30px 7px gray;
 }
 
-.card p:last-child{
+.card p:last-child {
     font-weight: 900;
     margin-top: 2rem;
 }
 
-.card p span{
+.card p span {
     font-weight: 900;
     font-size: 2rem;
     color: var(--orange);
 }
 
-.cards{
+.cards {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    margin-top: 15rem;
+    margin-top: 5rem;
     gap: 3rem;
-    
+
 }
 
-.cards:last-of-type{
-    margin-top: 0;
-}
-
-.titulos-categoria h2{
+.titulos-categoria h2 {
     text-align: center;
     margin: 5rem 0;
 }
 
-.banner-card{
+.banner-card {
     background-image: url(../img/Banner\ 1.jpg);
 }
 
 
 /* Contacto */
 
-.padre{
+.padre {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 2rem;
 }
 
-.contacto{
+.contacto {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 50px;
-    padding: 15rem 0;
+    padding: 5rem 0;
 }
 
-.contacto-texto{
+.contacto-texto {
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 
-.contacto-texto h2{
+.contacto-texto h2 {
     color: var(--negro);
 }
 
@@ -301,20 +313,33 @@ img{
     color: #1f1e1e;
 }
 
-.iconos{
+.iconos-content {
     display: flex;
-    justify-content: center;
-    gap: 30px;
-    margin-bottom: 10px;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+
 }
 
-.iconos img{
-    width: 50px;
-    padding: 5px;
-    
+.iconos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
 }
 
-.letra-categorias{
+.iconos-texto {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    margin-left: -50px;
+}
+
+.iconos i {
+    font-size: 25px;
+}
+
+.letra-categorias {
     text-align: center;
     margin: 5rem 0;
 }
@@ -322,104 +347,106 @@ img{
 
 /* Nosotros */
 
-.contenedor-nosotros{
+.contenedor-nosotros {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
 
 }
 
-.contenedor-nosotros p{
+.contenedor-nosotros p {
     margin: 2rem 0;
     width: 70%;
 }
 
-.texto-nosotros p .patitas{
+.texto-nosotros p .patitas {
     color: var(--citrus);
     font-weight: 900;
 }
 
-.texto-nosotros p .patitas2{
+.texto-nosotros p .patitas2 {
     color: var(--orange);
     font-weight: 900;
 }
 
-.texto-nosotros p .patitas3{
+.texto-nosotros p .patitas3 {
     color: rgb(80, 71, 255);
     font-weight: 900;
 }
 
-.texto-nosotros h3{
+.texto-nosotros h3 {
     margin: 0;
     color: var(--vinotino);
 }
 
-.texto-nosotros h1{
+.texto-nosotros h1 {
     color: var(--vinotino);
 }
 
 
 /* WhatsApp */
 
-.wha{
-    width:75px;
+.whatsapp {
+    width: 75px;
     height: 75px;
     background-color: #25D366;
     border-radius: 50%;
-    text-align: center;
     position: fixed;
     bottom: 5%;
     right: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.wha i{
+.whatsapp i {
     font-size: 60px;
-    margin-top: 9%;
     color: #fff;
+}
+
+
+.whatsapp:hover {
+    transform: scale(1.1);
+    background-color: #128C7E;
 }
 
 
 /* Footer */
 
-footer{
+footer {
     display: flex;
     justify-content: space-between;
     background-color: #004450;
     color: var(--blanco);
 }
 
-footer a{
+footer a {
     color: var(--blanco);
     text-decoration: none;
 }
 
-footer a:hover{
+footer a:hover {
     transform: scale(1.1);
     color: var(--citrus);
 }
 
-.logopat{
+.logopat {
     width: 200px;
     height: 200px;
 }
 
-.redes-sociales{
+.redes-sociales {
     display: flex;
     justify-content: left;
     margin-top: 20px;
-    
+
 }
 
-.redes-sociales img{
-    width: 50px;
+.redes-sociales i {
+    font-size: 40px;
 }
 
-.footer h3{
+.footer h3 {
     margin: 2rem 0;
     padding: 0 3rem 0 0;
 }
-
-
-
-
-
