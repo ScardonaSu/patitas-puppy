@@ -93,10 +93,6 @@ img{
     width: 100%;
 }
 
-.banner{
-    padding-top: 15rem;
-}
-
 .barraNava li img{
     width: 15rem;
     transition: transform;
@@ -162,6 +158,7 @@ img{
 
 .banner img{
     width: 100%;
+    padding: 15rem 0;
 }
 
 .perro{
@@ -199,7 +196,7 @@ img{
 /* Categorias */
 
 .categorias{
-    margin-top: 5rem;
+    margin-top: 15rem;
 }
 
 .categorias h3{
@@ -256,9 +253,13 @@ img{
 .cards{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    margin-top: 5rem;
+    margin-top: 15rem;
     gap: 3rem;
     
+}
+
+.cards:last-of-type{
+    margin-top: 0;
 }
 
 .titulos-categoria h2{
@@ -285,7 +286,7 @@ img{
     justify-content: center;
     align-items: center;
     gap: 50px;
-    padding: 5rem 0;
+    padding: 15rem 0;
 }
 
 .contacto-texto{
