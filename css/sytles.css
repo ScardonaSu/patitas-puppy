@@ -200,6 +200,10 @@ img {
     .banner img{
         margin-top: 0
     }
+
+    .banner2 img{
+        margin-top: 10rem;
+    }
 }
 
 .perro {
