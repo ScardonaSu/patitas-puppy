@@ -198,7 +198,7 @@ img {
 
 @media (max-width: 768px) { 
     .banner img{
-        margin-top: 0;
+        margin-top: 0
     }
 }
 
@@ -329,7 +329,7 @@ img {
 
 @media (max-width: 768px) { 
     .cards{
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: 1fr;
         margin-top: 10rem;
     }
 }
@@ -489,12 +489,16 @@ footer {
     background-color: #004450;
     color: var(--blanco);
     margin-top: 15rem;
+    
 }
 
 @media (max-width: 768px) { 
     footer{
         flex-direction: column;
-        align-items: center;
+        justify-content: left;
+        align-items: start;
+        padding: 10rem;
+        text-align: left;
     }
 }
 
